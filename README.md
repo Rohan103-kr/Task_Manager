@@ -3,10 +3,8 @@
 A simple full-stack web application to manage tasks. Built with React (Frontend) and Node.js + Express (Backend).
 
 ## Live Links
-- **Frontend (Vercel):** [INSERT_VERCEL_LINK_HERE]
-- **Backend (Render):** [INSERT_RENDER_LINK_HERE]
-
-> **Note to Reviewer:** Please replace `[INSERT_VERCEL_LINK_HERE]` and `[INSERT_RENDER_LINK_HERE]` with the live deployment links after you deploy the app.
+- **Frontend (Vercel):** task-manager-jvqh6q7s3-rohan103-krs-projects.vercel.app
+- **Backend (Render):** https://task-manager-vgpm.onrender.com
 
 ## Features
 - Add, view, and delete tasks.
