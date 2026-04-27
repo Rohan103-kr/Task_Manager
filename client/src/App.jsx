@@ -4,7 +4,10 @@ import TaskInput from './components/TaskInput';
 import TaskList from './components/TaskList';
 import { Sparkles } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/tasks';
+const isProd = import.meta.env.PROD;
+const API_URL = isProd 
+  ? 'https://task-manager-vgpm.onrender.com/tasks'
+  : 'http://localhost:5000/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
