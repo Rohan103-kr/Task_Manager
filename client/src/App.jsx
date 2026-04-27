@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 import TaskInput from './components/TaskInput';
 import TaskList from './components/TaskList';
@@ -13,11 +13,6 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Fetch tasks on initial load
-  useEffect(() => {
-    fetchTasks();
-  }, []);
-
   const fetchTasks = async () => {
     try {
       setLoading(true);
@@ -29,6 +24,14 @@ function App() {
       setLoading(false);
     }
   };
+
+  // Fetch tasks on initial load
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    fetchTasks();
+  }, []);
+
+
 
   const handleAddTask = async (text) => {
     try {
