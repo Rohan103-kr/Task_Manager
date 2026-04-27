@@ -3,7 +3,7 @@
 A simple full-stack web application to manage tasks. Built with React (Frontend) and Node.js + Express (Backend).
 
 ## Live Links
-- **Frontend (Vercel):** https://task-manager-jvqh6q7s3-rohan103-krs-projects.vercel.app/
+- **Frontend (Vercel):** https://task-manager-5q6gzzwl0-rohan103-krs-projects.vercel.app/
 - **Backend (Render):** https://task-manager-vgpm.onrender.com
 
 ## Features
